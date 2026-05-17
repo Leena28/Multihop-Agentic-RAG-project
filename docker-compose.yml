@@ -1,0 +1,31 @@
+version: "3.8"
+
+services:
+
+# FastAPI Backend
+
+api:
+  build: .
+  container_name: rag-api
+  ports:
+    - "8000:8000"
+  env_file:
+    - .env
+  volumes:
+    - ./qdrant_storage_v2:/app/qdrant_storage_v2
+    - ./data:/app/data
+    - ./doc_hashes.json:/app/doc_hashes.json
+  depends_on:
+    - qdrant
+  restart: always
+
+# Qdrant Vector Database
+
+qdrant:
+  image: qdrant/qdrant
+  container_name: qdrant-db
+  ports:
+    - "6333:6333"
+  volumes:
+     - ./qdrant_storage_v2:/qdrant/storage
+  restart: always
