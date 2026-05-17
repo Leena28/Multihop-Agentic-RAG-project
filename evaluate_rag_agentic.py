@@ -11,7 +11,7 @@ from ragas.llms import LangchainLLMWrapper
 from ragas.embeddings import LangchainEmbeddingsWrapper
 
 #from basic_rag_2 import create_vector_store,ask_question,create_hyde_retriever
-from basic_multihop_rag import app
+from multihop_rag import app
 from langchain_qdrant import QdrantVectorStore
 from qdrant_client import QdrantClient
 import time
