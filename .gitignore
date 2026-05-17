@@ -1,0 +1,17 @@
+# Virtual environment
+venv/
+.venv/
+
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Qdrant database
+qdrant_storage_v2/
+
+# Document hash tracking
+doc_hashes.json
