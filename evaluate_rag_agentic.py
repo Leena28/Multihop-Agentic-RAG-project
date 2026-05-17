@@ -86,7 +86,7 @@ for i,text_question in enumerate(text_questions):
     else:
         contexts.append([doc.page_content for doc in docs])
     
-    time.sleep(10)
+    time.sleep(30)
     #contexts.append([doc.page_content for doc in final_state["documents"]])
 
 
