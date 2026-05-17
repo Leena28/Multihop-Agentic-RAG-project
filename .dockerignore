@@ -3,6 +3,5 @@ venv/
 __pycache__/
 *.pyc
 .git/
-qdrant_storage_v2/
 *.log
 doc_hashes
