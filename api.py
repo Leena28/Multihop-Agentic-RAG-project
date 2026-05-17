@@ -7,7 +7,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field, field_validator
 from typing import Optional
 import uvicorn
-from basic_multihop_rag import app as rag_app
+from multihop_rag import app as rag_app
 
 from langfuse import Langfuse
 from langfuse.langchain import CallbackHandler
