@@ -45,5 +45,5 @@ jobs:
           script: |
             cd ~/Multihop-Agentic-RAG-project
             git pull origin main
-            docker compose down
+            docker compose down --remove-orphans
             docker-compose up --build -d
