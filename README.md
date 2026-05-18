@@ -1,7 +1,9 @@
 # MultiHop Agentic Research Paper Assistant with Self-RAG and Corrective RAG
 
 An advanced agentic AI system for interacting with research papers using Self-RAG and Corrective RAG architectures.The system performs multi-hop reasoning across multiple research documents using hybrid retrieval, reranking, retrieval grading, hallucination detection, grounded answer verification, and self-correcting retrieval loops orchestrated through LangGraph.
-The project is designed as a production-style AI Research Assistant capable of retrieving, validating, and synthesizing information from multiple research papers while minimizing hallucinations through LLM-as-a-Judge workflows.The system built using LangChain, LangGraph, FastAPI, Qdrant, Hybrid Search(BM25+Semantic Search), HuggingFace Embeddings, Groq llama-3.1-8b, Cohere Reranking, and Streamlit.
+The project is designed as a production-style AI Research Assistant capable of retrieving, validating, and synthesizing information from multiple research papers while minimizing hallucinations through LLM-as-a-Judge workflows.
+
+The system built using LangChain, LangGraph, FastAPI, Qdrant, Hybrid Search(BM25+Semantic Search), HuggingFace Embeddings, Groq llama-3.1-8b, Cohere Reranking, Langfuse, and Streamlit.
 
 This project implements a production-style Self-RAG and Corrective RAG pipeline capable of:
 
