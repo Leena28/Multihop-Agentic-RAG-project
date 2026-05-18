@@ -76,6 +76,21 @@ The entire correction pipeline is orchestrated using LangGraph state graphs.
 
 # Core Features
 
+## Ingestion Pipeline
+
+- Document hashing for document tracking and versioning
+- Automatic detection of updated documents
+- Batch embedding processing for efficient ingestion
+- Metadata-aware chunk storage
+- Persistent vector indexing using Qdrant
+
+## Vector Database
+
+* Qdrant Vector Database
+* Metadata-aware retrieval
+* Persistent vector storage
+* Structured filtering support
+
 ## Hybrid Retrieval Pipeline
 
 * Semantic vector search
@@ -84,13 +99,6 @@ The entire correction pipeline is orchestrated using LangGraph state graphs.
 * Ensemble Retriever for combining retrieval strategies
 * Parent-child retrieval architecture
 * Multi-hop document retrieval
-
-## Vector Database
-
-* Qdrant Vector Database
-* Metadata-aware retrieval
-* Persistent vector storage
-* Structured filtering support
 
 ## Reranking
 
