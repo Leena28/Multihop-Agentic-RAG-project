@@ -333,11 +333,11 @@ pip install -r requirements.txt
 Create a `.env` file:
 
 ```env id="db8s0g"
-GROQ_API_KEY=your_gemini_api_key
-COHERE_API_KEY=your_cohere_api_key
-LANGFUSE_PUBLIC_KEY=your_langfuse_public_key
-LANGFUSE_SECRET_KEY=your_langfuse_secret_key
-LANGFUSE_HOST=your_langfuse_host
+GROQ_API_KEY=groq_key
+COHERE_API_KEY=cohere_api_key
+LANGFUSE_PUBLIC_KEY=langfuse_public_key
+LANGFUSE_SECRET_KEY=langfuse_secret_key
+LANGFUSE_HOST=langfuse_host
 ```
 
 ---
