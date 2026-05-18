@@ -1,6 +1,7 @@
-# MultiHop Agentic RAG with Self-RAG and Corrective RAG
+# MultiHop Agentic Research Paper Assistant with Self-RAG and Corrective RAG
 
-An advanced Agentic Retrieval-Augmented Generation (RAG) system built using LangChain, LangGraph, FastAPI, Qdrant, Hybrid Search(BM25+Semantic Search), HuggingFace Embeddings, Groq llama-3.1-8b, Cohere Reranking, and Streamlit.
+An advanced agentic AI system for interacting with research papers using Self-RAG and Corrective RAG architectures.The system performs multi-hop reasoning across multiple research documents using hybrid retrieval, reranking, retrieval grading, hallucination detection, grounded answer verification, and self-correcting retrieval loops orchestrated through LangGraph.
+The project is designed as a production-style AI Research Assistant capable of retrieving, validating, and synthesizing information from multiple research papers while minimizing hallucinations through LLM-as-a-Judge workflows.The system built using LangChain, LangGraph, FastAPI, Qdrant, Hybrid Search(BM25+Semantic Search), HuggingFace Embeddings, Groq llama-3.1-8b, Cohere Reranking, and Streamlit.
 
 This project implements a production-style Self-RAG and Corrective RAG pipeline capable of:
 
@@ -37,7 +38,12 @@ GitHub Repository:
 
 * [GitHub Repository](https://github.com/Leena28/Multihop-Agentic-RAG-project)
 
-<img width="1365" height="588" alt="image" src="https://github.com/user-attachments/assets/84be262d-c927-4616-afb4-fd522f533182" />
+<img width="1365" height="660" alt="image" src="https://github.com/user-attachments/assets/6b0d14a4-60f1-4210-881d-6b1923d7490a" />
+
+-
+
+<img width="1363" height="606" alt="image" src="https://github.com/user-attachments/assets/c304a50a-30cc-4f02-a471-afbd7ece34fd" />
+
 
 
 ---
