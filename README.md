@@ -186,6 +186,7 @@ This helps analyze:
 * retrieval latency
 * generation latency
 * and total pipeline execution time.
+<img width="1152" height="619" alt="image" src="https://github.com/user-attachments/assets/aa215c97-7e4b-4e83-b938-9a3b3695a985" />
 
 ---
 
